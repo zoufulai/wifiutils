@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/recycle_item_name"
+                  android:layout_marginLeft="5dp"
+                  android:textSize="20sp"
+                  android:layout_weight="1"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="right"
+                  android:gravity="right|center_vertical"
+                  android:layout_marginRight="5dp"
+                  android:id="@+id/recycle_item_ssid"/>
+    </LinearLayout>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="10sp"
+              android:gravity="center"
+              android:id="@+id/recycle_item_tv"/>
+</LinearLayout>
